@@ -5,8 +5,8 @@ import Pages from './pages';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000',
-  cache: new InMemoryCache(),
+  uri: 'https://server-catstronauts.herokuapp.com/', // change this to YOUR server URI
+  cache: new InMemoryCache()
 });
 
 ReactDOM.render(
